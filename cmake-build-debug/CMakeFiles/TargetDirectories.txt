@@ -1,0 +1,3 @@
+D:/JiangYC/CLion_projects/Aboard/cmake-build-debug/CMakeFiles/Aboard.elf.dir
+D:/JiangYC/CLion_projects/Aboard/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/JiangYC/CLion_projects/Aboard/cmake-build-debug/CMakeFiles/rebuild_cache.dir

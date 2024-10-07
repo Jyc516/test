@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"aboard\startup_stm32f427xx.o"
+"aboard\tim_periodelapsedcallback.o"
+"aboard\main.o"
+"aboard\gpio.o"
+"aboard\tim.o"
+"aboard\stm32f4xx_it.o"
+"aboard\stm32f4xx_hal_msp.o"
+"aboard\stm32f4xx_hal_tim.o"
+"aboard\stm32f4xx_hal_tim_ex.o"
+"aboard\stm32f4xx_hal_rcc.o"
+"aboard\stm32f4xx_hal_rcc_ex.o"
+"aboard\stm32f4xx_hal_flash.o"
+"aboard\stm32f4xx_hal_flash_ex.o"
+"aboard\stm32f4xx_hal_flash_ramfunc.o"
+"aboard\stm32f4xx_hal_gpio.o"
+"aboard\stm32f4xx_hal_dma_ex.o"
+"aboard\stm32f4xx_hal_dma.o"
+"aboard\stm32f4xx_hal_pwr.o"
+"aboard\stm32f4xx_hal_pwr_ex.o"
+"aboard\stm32f4xx_hal_cortex.o"
+"aboard\stm32f4xx_hal.o"
+"aboard\stm32f4xx_hal_exti.o"
+"aboard\system_stm32f4xx.o"
+--strict --scatter "Aboard\Aboard.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Aboard.map" -o Aboard\Aboard.axf
